@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Events — AWS Cloud Club AURCM</title>
+    <meta
+      name="description"
+      content="Every workshop, hackathon, and session hosted by AWS Cloud Club AURCM."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="particles"></canvas>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="container nav-inner">
+        <a href="index.html#home" class="nav-brand">
+          <img
+            src="images/aws-club-logo.png"
+            alt="AWS Cloud Club AURCM"
+            class="nav-logo"
+          />
+          <span class="gradient-text nav-brand-text">AWS Cloud Club</span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html#home" class="nav-link-underline">Home</a></li>
+          <li>
+            <a href="index.html#events" class="nav-link-underline">Events</a>
+          </li>
+          <li>
+            <a href="index.html#members" class="nav-link-underline">Members</a>
+          </li>
+          <li>
+            <a href="index.html#about" class="nav-link-underline">About</a>
+          </li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Events Page Content -->
+    <section class="events-page">
+      <div class="container">
+        <a href="index.html" class="back-link">← Back to Home</a>
+        <h1 class="section-title gradient-text">All Events Conducted</h1>
+        <p class="section-sub" style="text-align: left; margin-left: 0">
+          Every workshop, hackathon, and session hosted by AWS Cloud Club AURCM.
+        </p>
+        <div class="grid grid-3" id="allEventsGrid"></div>
+      </div>
+    </section>
+
+    <!-- Gallery Modal -->
+    <div class="gallery-overlay" id="galleryOverlay">
+      <div class="gallery-modal">
+        <!-- Close Button -->
+        <button
+          class="gallery-close"
+          id="galleryClose"
+          aria-label="Close gallery"
+        >
+          <svg
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+          >
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+          <span>Close</span>
+        </button>
+
+        <div class="gallery-header">
+          <h2 class="gallery-title" id="galleryTitle"></h2>
+          <p class="gallery-date" id="galleryDate"></p>
+        </div>
+
+        <div class="gallery-main">
+          <img id="galleryImage" src="" alt="" class="gallery-img" />
+
+          <button
+            class="gallery-arrow gallery-prev"
+            id="galleryPrev"
+            aria-label="Previous"
+          >
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            >
+              <polyline points="15 18 9 12 15 6" />
+            </svg>
+          </button>
+          <button
+            class="gallery-arrow gallery-next"
+            id="galleryNext"
+            aria-label="Next"
+          >
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            >
+              <polyline points="9 6 15 12 9 18" />
+            </svg>
+          </button>
+
+          <span class="gallery-counter" id="galleryCounter"></span>
+        </div>
+
+        <div class="gallery-thumbs" id="galleryThumbs"></div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container text-center">
+        <p class="footer-copy">
+          © <span id="year"></span> AWS Cloud Club AURCM. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
