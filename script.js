@@ -207,7 +207,6 @@ function createEventCard(event, index, clickable) {
   card.innerHTML = `
     <div class="event-card-img">
       <img src="${event.images[0]}" alt="${event.title}" loading="lazy" />
-      <span class="event-card-icon">📅</span>
     </div>
     <div class="event-card-body">
       <p class="event-card-date">${event.date}</p>
