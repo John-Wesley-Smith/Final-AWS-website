@@ -16,7 +16,7 @@ const pastEvents = [
     title: "AWS Cloud Quest Bootcamp 24",
     date: "May 29, 2024",
     summary:
-      "A three-day immersive workshop focused on AWS fundamentals and hands-on cloud learning through Cloud Quest.",
+      "A three days immersive workshop focused on AWS fundamentals and hands-on cloud learning through Cloud Quest.",
     images: [
       "images/AWS Events Photos/AWS Cloud Quest Bootcamp 24/poster.jpg",
       "images/AWS Events Photos/AWS Cloud Quest Bootcamp 24/pic1.jpg",
@@ -27,11 +27,24 @@ const pastEvents = [
     ],
   },
   {
+    title: "AWS Party Rock Challenge",
+    date: "Jun 1, 2024",
+    summary:
+      "Students Learn generative AI and prompt engineering to easily create and share no-code apps on PartyRock using simple, effective instructions.",
+    images: [
+      "images/AWS Events Photos/AWS Party Rock Challenge/poster.jpg",
+      "images/AWS Events Photos/AWS Party Rock Challenge/pic1.jpg",
+      "images/AWS Events Photos/AWS Party Rock Challenge/pic2.jpg",
+      "images/AWS Events Photos/AWS Party Rock Challenge/pic3.jpg",
+    ],
+  },
+  {
     title: "AWS Cloud Cross Club Event",
-    date: "Feb 09, 2024",
+    date: "Sep 02, 2024",
     summary:
       "A successful virtual AWS Cloud Cross Club event featuring inspiring talks by Sheen Brisals and Eric Johnson.",
     images: [
+      "images/AWS Events Photos/AWS Cloud Cross Club Event/poster.jpg",
       "images/AWS Events Photos/AWS Cloud Cross Club Event/pic1.jpg",
       "images/AWS Events Photos/AWS Cloud Cross Club Event/pic2.jpg",
       "images/AWS Events Photos/AWS Cloud Cross Club Event/pic3.jpg",
@@ -42,7 +55,7 @@ const pastEvents = [
   },
   {
     title: "AWS Tech Nova Day",
-    date: "Sep 02, 2024",
+    date: "Sep 23, 2024",
     summary:
       "A successful AWS Tech Nova Day featuring insightful sessions, hands-on learning, and highlighted by an interactive PartyRock app development experience.",
     images: [
@@ -52,6 +65,13 @@ const pastEvents = [
       "images/AWS Events Photos/AWS Tech Nova Day/pic3.jpg",
       "images/AWS Events Photos/AWS Tech Nova Day/pic4.jpg",
     ],
+  },
+  {
+    title: "AWS Infrastructure Camp",
+    date: "Nov 16, 2024",
+    summary:
+      "A hands-on AWS workshop covering IAM, VPC, and S3 to build secure, scalable cloud applications with core identity, networking, and storage skills.",
+    images: ["images/AWS Events Photos/AWS Infrastructure Camp/poster.jpg"],
   },
   {
     title: "Introduction to AWS Community",
@@ -137,8 +157,8 @@ const memberCategories = [
     emoji: "",
     highlight: true,
     members: [
-      { name: "Dharanidharan K", role: "Cloud Champion" },
-      { name: "Balalochini L", role: "Cloud Champion" },
+      { name: "Dharanidharan K", role: "Cloud Champs" },
+      { name: "Balalochini L", role: "Cloud Champs" },
     ],
   },
   {

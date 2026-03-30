@@ -724,7 +724,7 @@ img {
   border-radius: var(--radius);
   overflow: hidden;
   background: black;
-  aspect-ratio: 9/6;
+  aspect-ratio: 16 / 9;
 }
 .gallery-img {
   width: 100%;
