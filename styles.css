@@ -524,8 +524,6 @@ img {
 .member-card {
   text-align: center;
   padding: 1.25rem;
-  width: 200px;
-  height: 200px;
   border-radius: var(--radius);
 }
 .member-card.highlight {
@@ -687,7 +685,7 @@ img {
   backdrop-filter: blur(8px);
   border: 1px solid hsla(0, 0%, 100%, 0.2);
   border-radius: 2rem;
-  padding: 0.5rem 1.25rem 0.5rem 0.75rem;
+  padding: 0.5rem 0.65rem 0.5rem 0.65rem;
   color: hsla(0, 0%, 100%, 0.8);
   cursor: pointer;
   font-size: 0.875rem;
@@ -696,6 +694,11 @@ img {
   transition: all 0.2s;
   z-index: 10;
   margin-top: 50px;
+}
+@media screen and (max-width: 380px) {
+  .gallery-close {
+    margin-top: 10px;
+  }
 }
 .gallery-close:hover {
   background: hsla(0, 84%, 60%, 0.3);

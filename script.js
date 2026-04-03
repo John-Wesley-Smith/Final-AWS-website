@@ -167,16 +167,16 @@ const memberCategories = [
     highlight: true,
     members: [
       {
-        name: "Mohammed Sheik Ashraf",
-        role: "Events and Operation Team Head (EOT)",
+        name: "Ashraf",
+        role: "Events and Operation Team",
       },
-      { name: "Maheshkumar", role: "Design Team Head (DT)" },
-      { name: "Dhivya", role: "Tech Team Head (TT)" },
+      { name: "Maheshkumar", role: "Design Team" },
+      { name: "Dhivya", role: "Tech Team Head" },
       {
         name: "John Wesley Smith ",
-        role: "Community Engagement Team Head (CET)",
+        role: "Community Engagement Team",
       },
-      { name: "Dakshayani", role: "Content Team Head(CT)" },
+      { name: "Dakshayani", role: "Content Team" },
     ],
   },
   {
