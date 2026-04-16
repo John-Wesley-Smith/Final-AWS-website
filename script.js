@@ -1,89 +1,42 @@
 /* ───── Event Data ───── */
 const pastEvents = [
   {
-    title: "Master in Cloud: Your Career Journey with AWS",
-    date: "Sep 27, 2023",
+    title: "Amazon EC2 & S3 Bootcamp",
+    date: "Jan 30, 2026",
     summary:
-      "A grand success of the first event “Your Career Journey with AWS”, powered by the incredible efforts of the College Cloud Champs team!",
+      "Hands-On Experience in Real-World Cloud Deployment with EC2, Application Hosting, and S3",
     images: [
-      "images/AWS Events Photos/AWS First Event/poster.jpg",
-      "images/AWS Events Photos/AWS First Event/pic1.jpg",
-      "images/AWS Events Photos/AWS First Event/pic2.jpg",
-      "images/AWS Events Photos/AWS First Event/pic3.jpg",
+      "images/AWS Events Photos/Amazon EC2 & S3 Bootcamp/poster.jpeg",
+      "images/AWS Events Photos/Amazon EC2 & S3 Bootcamp/pic1.jpeg",
+      "images/AWS Events Photos/Amazon EC2 & S3 Bootcamp/pic2.jpeg",
+      "images/AWS Events Photos/Amazon EC2 & S3 Bootcamp/pic3.jpeg",
+      "images/AWS Events Photos/Amazon EC2 & S3 Bootcamp/pic4.jpeg",
     ],
   },
   {
-    title: "AWS Cloud Quest Bootcamp 24",
-    date: "May 29, 2024",
+    title: "Cloud Quest 25",
+    date: "Sep 3-4, 2025",
     summary:
-      "A three days immersive workshop focused on AWS fundamentals and hands-on cloud learning through Cloud Quest.",
+      "A successful two-day AWS Cloud Quest event led by the Tech Team and Cloud Champs who ensured engaging, hands-on learning for all participants.",
     images: [
-      "images/AWS Events Photos/AWS Cloud Quest Bootcamp 24/poster.jpg",
-      "images/AWS Events Photos/AWS Cloud Quest Bootcamp 24/pic1.jpg",
-      "images/AWS Events Photos/AWS Cloud Quest Bootcamp 24/pic2.jpg",
-      "images/AWS Events Photos/AWS Cloud Quest Bootcamp 24/pic3.jpg",
-      "images/AWS Events Photos/AWS Cloud Quest Bootcamp 24/pic4.jpg",
-      "images/AWS Events Photos/AWS Cloud Quest Bootcamp 24/pic5.jpg",
+      "images/AWS Events Photos/AWS Cloud Quest 25/poster.jpg",
+      "images/AWS Events Photos/AWS Cloud Quest 25/pic1.jpeg",
+      "images/AWS Events Photos/AWS Cloud Quest 25/pic2.jpeg",
+      "images/AWS Events Photos/AWS Cloud Quest 25/pic3.jpeg",
+      "images/AWS Events Photos/AWS Cloud Quest 25/pic4.jpeg",
+      "images/AWS Events Photos/AWS Cloud Quest 25/pic5.jpeg",
+      "images/AWS Events Photos/AWS Cloud Quest 25/pic6.jpeg",
+      "images/AWS Events Photos/AWS Cloud Quest 25/pic7.jpeg",
     ],
   },
   {
-    title: "AWS Party Rock Challenge",
-    date: "Jun 1, 2024",
+    title: "Amazon Q CLI Bootcamp",
+    date: "June 29, 2025",
     summary:
-      "Students Learn generative AI and prompt engineering to easily create and share no-code apps on PartyRock using simple, effective instructions.",
+      "Amazon Q CLI Bootcamp introducing students to Amazon Q CLI, enabling them to build practical applications and games within minutes.",
     images: [
-      "images/AWS Events Photos/AWS Party Rock Challenge/poster.jpg",
-      "images/AWS Events Photos/AWS Party Rock Challenge/pic1.jpg",
-      "images/AWS Events Photos/AWS Party Rock Challenge/pic2.jpg",
-      "images/AWS Events Photos/AWS Party Rock Challenge/pic3.jpg",
-    ],
-  },
-  {
-    title: "AWS Cloud Cross Club Event",
-    date: "Sep 02, 2024",
-    summary:
-      "A successful virtual AWS Cloud Cross Club event featuring inspiring talks by Sheen Brisals and Eric Johnson.",
-    images: [
-      "images/AWS Events Photos/AWS Cloud Cross Club Event/poster.jpg",
-      "images/AWS Events Photos/AWS Cloud Cross Club Event/pic1.jpg",
-      "images/AWS Events Photos/AWS Cloud Cross Club Event/pic2.jpg",
-      "images/AWS Events Photos/AWS Cloud Cross Club Event/pic3.jpg",
-      "images/AWS Events Photos/AWS Cloud Cross Club Event/pic4.jpg",
-      "images/AWS Events Photos/AWS Cloud Cross Club Event/pic5.jpg",
-      "images/AWS Events Photos/AWS Cloud Cross Club Event/pic6.jpg",
-    ],
-  },
-  {
-    title: "AWS Tech Nova Day",
-    date: "Sep 23, 2024",
-    summary:
-      "A successful AWS Tech Nova Day featuring insightful sessions, hands-on learning, and highlighted by an interactive PartyRock app development experience.",
-    images: [
-      "images/AWS Events Photos/AWS Tech Nova Day/poster.jpg",
-      "images/AWS Events Photos/AWS Tech Nova Day/pic1.jpg",
-      "images/AWS Events Photos/AWS Tech Nova Day/pic2.jpg",
-      "images/AWS Events Photos/AWS Tech Nova Day/pic3.jpg",
-      "images/AWS Events Photos/AWS Tech Nova Day/pic4.jpg",
-    ],
-  },
-  {
-    title: "AWS Infrastructure Camp",
-    date: "Nov 16, 2024",
-    summary:
-      "A hands-on AWS workshop covering IAM, VPC, and S3 to build secure, scalable cloud applications with core identity, networking, and storage skills.",
-    images: ["images/AWS Events Photos/AWS Infrastructure Camp/poster.jpg"],
-  },
-  {
-    title: "Introduction to AWS Community",
-    date: "Mar 14, 2025",
-    summary:
-      "Introduction to AWS Community session for first-year students at Anna University Regional Campus, Madurai!",
-    images: [
-      "images/AWS Events Photos/Introduction to AWS Community/poster.jpg",
-      "images/AWS Events Photos/Introduction to AWS Community/pic1.jpg",
-      "images/AWS Events Photos/Introduction to AWS Community/pic2.jpg",
-      "images/AWS Events Photos/Introduction to AWS Community/pic3.jpg",
-      "images/AWS Events Photos/Introduction to AWS Community/pic4.jpg",
+      "images/AWS Events Photos/Amazon Q CLI Bootcamp/poster.jpg",
+      "images/AWS Events Photos/Amazon Q CLI Bootcamp/pic1.jpg",
     ],
   },
   {
@@ -104,42 +57,90 @@ const pastEvents = [
     ],
   },
   {
-    title: "Amazon Q CLI Bootcamp",
-    date: "June 29, 2025",
+    title: "Introduction to AWS Community",
+    date: "Mar 14, 2025",
     summary:
-      "Amazon Q CLI Bootcamp introducing students to Amazon Q CLI, enabling them to build practical applications and games within minutes.",
+      "Introduction to AWS Community session for first-year students at Anna University Regional Campus, Madurai!",
     images: [
-      "images/AWS Events Photos/Amazon Q CLI Bootcamp/poster.jpg",
-      "images/AWS Events Photos/Amazon Q CLI Bootcamp/pic1.jpg",
+      "images/AWS Events Photos/Introduction to AWS Community/poster.jpg",
+      "images/AWS Events Photos/Introduction to AWS Community/pic1.jpg",
+      "images/AWS Events Photos/Introduction to AWS Community/pic2.jpg",
+      "images/AWS Events Photos/Introduction to AWS Community/pic3.jpg",
+      "images/AWS Events Photos/Introduction to AWS Community/pic4.jpg",
     ],
   },
   {
-    title: "Cloud Quest 25",
-    date: "Sep 3-4, 2025",
+    title: "AWS Infrastructure Camp",
+    date: "Nov 16, 2024",
     summary:
-      "A successful two-day AWS Cloud Quest event led by the Tech Team and Cloud Champs who ensured engaging, hands-on learning for all participants.",
+      "A hands-on AWS workshop covering IAM, VPC, and S3 to build secure, scalable cloud applications with core identity, networking, and storage skills.",
+    images: ["images/AWS Events Photos/AWS Infrastructure Camp/poster.jpg"],
+  },
+  {
+    title: "AWS Tech Nova Day",
+    date: "Sep 23, 2024",
+    summary:
+      "A successful AWS Tech Nova Day featuring insightful sessions, hands-on learning, and highlighted by an interactive PartyRock app development experience.",
     images: [
-      "images/AWS Events Photos/AWS Cloud Quest 25/poster.jpg",
-      "images/AWS Events Photos/AWS Cloud Quest 25/pic1.jpeg",
-      "images/AWS Events Photos/AWS Cloud Quest 25/pic2.jpeg",
-      "images/AWS Events Photos/AWS Cloud Quest 25/pic3.jpeg",
-      "images/AWS Events Photos/AWS Cloud Quest 25/pic4.jpeg",
-      "images/AWS Events Photos/AWS Cloud Quest 25/pic5.jpeg",
-      "images/AWS Events Photos/AWS Cloud Quest 25/pic6.jpeg",
-      "images/AWS Events Photos/AWS Cloud Quest 25/pic7.jpeg",
+      "images/AWS Events Photos/AWS Tech Nova Day/poster.jpg",
+      "images/AWS Events Photos/AWS Tech Nova Day/pic1.jpg",
+      "images/AWS Events Photos/AWS Tech Nova Day/pic2.jpg",
+      "images/AWS Events Photos/AWS Tech Nova Day/pic3.jpg",
+      "images/AWS Events Photos/AWS Tech Nova Day/pic4.jpg",
     ],
   },
   {
-    title: "Amazon EC2 & S3 Bootcamp",
-    date: "Jan 30, 2026",
+    title: "AWS Cloud Cross Club Event",
+    date: "Sep 02, 2024",
     summary:
-      "Hands-On Experience in Real-World Cloud Deployment with EC2, Application Hosting, and S3",
+      "A successful virtual AWS Cloud Cross Club event featuring inspiring talks by Sheen Brisals and Eric Johnson.",
     images: [
-      "images/AWS Events Photos/Amazon EC2 & S3 Bootcamp/poster.jpeg",
-      "images/AWS Events Photos/Amazon EC2 & S3 Bootcamp/pic1.jpeg",
-      "images/AWS Events Photos/Amazon EC2 & S3 Bootcamp/pic2.jpeg",
-      "images/AWS Events Photos/Amazon EC2 & S3 Bootcamp/pic3.jpeg",
-      "images/AWS Events Photos/Amazon EC2 & S3 Bootcamp/pic4.jpeg",
+      "images/AWS Events Photos/AWS Cloud Cross Club Event/poster.jpg",
+      "images/AWS Events Photos/AWS Cloud Cross Club Event/pic1.jpg",
+      "images/AWS Events Photos/AWS Cloud Cross Club Event/pic2.jpg",
+      "images/AWS Events Photos/AWS Cloud Cross Club Event/pic3.jpg",
+      "images/AWS Events Photos/AWS Cloud Cross Club Event/pic4.jpg",
+      "images/AWS Events Photos/AWS Cloud Cross Club Event/pic5.jpg",
+      "images/AWS Events Photos/AWS Cloud Cross Club Event/pic6.jpg",
+    ],
+  },
+  {
+    title: "AWS Party Rock Challenge",
+    date: "Jun 1, 2024",
+    summary:
+      "Students Learn generative AI and prompt engineering to easily create and share no-code apps on PartyRock using simple, effective instructions.",
+    images: [
+      "images/AWS Events Photos/AWS Party Rock Challenge/poster.jpg",
+      "images/AWS Events Photos/AWS Party Rock Challenge/pic1.jpg",
+      "images/AWS Events Photos/AWS Party Rock Challenge/pic2.jpg",
+      "images/AWS Events Photos/AWS Party Rock Challenge/pic3.jpg",
+    ],
+  },
+  {
+    title: "AWS Cloud Quest Bootcamp 24",
+    date: "May 29, 2024",
+    summary:
+      "A three days immersive workshop focused on AWS fundamentals and hands-on cloud learning through Cloud Quest.",
+    images: [
+      "images/AWS Events Photos/AWS Cloud Quest Bootcamp 24/poster.jpg",
+      "images/AWS Events Photos/AWS Cloud Quest Bootcamp 24/pic1.jpg",
+      "images/AWS Events Photos/AWS Cloud Quest Bootcamp 24/pic2.jpg",
+      "images/AWS Events Photos/AWS Cloud Quest Bootcamp 24/pic3.jpg",
+      "images/AWS Events Photos/AWS Cloud Quest Bootcamp 24/pic4.jpg",
+      "images/AWS Events Photos/AWS Cloud Quest Bootcamp 24/pic5.jpg",
+    ],
+  },
+
+  {
+    title: "Master in Cloud: Your Career Journey with AWS",
+    date: "Sep 27, 2023",
+    summary:
+      "A grand success of the first event “Your Career Journey with AWS”, powered by the incredible efforts of the College Cloud Champs team!",
+    images: [
+      "images/AWS Events Photos/AWS First Event/poster.jpg",
+      "images/AWS Events Photos/AWS First Event/pic1.jpg",
+      "images/AWS Events Photos/AWS First Event/pic2.jpg",
+      "images/AWS Events Photos/AWS First Event/pic3.jpg",
     ],
   },
 ];
