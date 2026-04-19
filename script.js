@@ -163,7 +163,7 @@ const memberCategories = [
     ],
   },
   {
-    title: "Core Team",
+    title: "Core Teams",
     emoji: "",
     highlight: true,
     members: [
@@ -205,6 +205,12 @@ const memberCategories = [
       { name: "Logesh", role: "Design Team" },
       { name: "Praveen Kumar", role: "Design Team" },
     ],
+  },
+  {
+    title: "Former Club Captains",
+    emoji: "",
+    highlight: true,
+    members: [{ name: "Harish Thyagarajan", role: "Club Captain" }],
   },
 ];
 
