@@ -283,12 +283,8 @@ if (membersContainer) {
         ${cat.members
           .map(
             (m) => `
-          <div class="glass-card member-card ${
-            cat.highlight ? "highlight" : ""
-          }">
-            <div class="member-avatar ${
-              cat.highlight ? "primary" : "muted"
-            }">${getInitials(m.name)}</div>
+          <div class="glass-card member-card highlight">
+            <div class="member-avatar primary">${getInitials(m.name)}</div>
             <div class="member-name">${m.name}</div>
             <div class="member-role">${m.role}</div>
           </div>
